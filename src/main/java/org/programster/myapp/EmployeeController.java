@@ -20,12 +20,4 @@ public class EmployeeController
     {
         return employeeRepository.findAll();
     }
-    /*
-    @PostMapping("/employees")
-    public String createEmployee() 
-    {
-        //employeeRepository.save(employee);
-        return "fuck";
-    }
-*/
 }
